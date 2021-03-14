@@ -29,6 +29,7 @@ public class WeekdatabaseApplication implements CommandLineRunner {
 		SpringApplication.run(WeekdatabaseApplication.class, args);
 	}
 
+	
 	@Override
 	public void run(String... args) throws Exception {
 		log.info("DatabaseweekApplicationcc:{}",dataSource.toString());
